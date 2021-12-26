@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <mpi.h>
 
 void PrintHello(int rank, int numtasks) {

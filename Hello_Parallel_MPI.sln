@@ -7,9 +7,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello_Parallel_MPI", "Hello
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pi_Monte_Carlo_method", "Pi_Monte_Carlo_method\Pi_Monte_Carlo_method.vcxproj", "{D4A6047F-A671-4DFD-9A7B-84264E19C2A4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lower_matrix", "Lower_matrix\Lower_matrix.vcxproj", "{66C9D31D-A5B0-47E9-AF09-A921647340F9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cart_Create", "Lower_matrix\Lower_matrix.vcxproj", "{66C9D31D-A5B0-47E9-AF09-A921647340F9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindMaxMinInMatrix", "FindMaxMinInMatrix\FindMaxMinInMatrix.vcxproj", "{49F07F09-BFD0-4E65-B7D5-BD5AE327C3F5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorMultiplication", "FindMaxMinInMatrix\FindMaxMinInMatrix.vcxproj", "{49F07F09-BFD0-4E65-B7D5-BD5AE327C3F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinInArr", "MaxInArr\MaxInArr.vcxproj", "{988D08AA-2568-45C1-A015-E49B3092BADD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMultiplication", "MatrixMultiplication\MatrixMultiplication.vcxproj", "{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,22 @@ Global
 		{49F07F09-BFD0-4E65-B7D5-BD5AE327C3F5}.Release|x64.Build.0 = Release|x64
 		{49F07F09-BFD0-4E65-B7D5-BD5AE327C3F5}.Release|x86.ActiveCfg = Release|Win32
 		{49F07F09-BFD0-4E65-B7D5-BD5AE327C3F5}.Release|x86.Build.0 = Release|Win32
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Debug|x64.ActiveCfg = Debug|x64
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Debug|x64.Build.0 = Debug|x64
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Debug|x86.ActiveCfg = Debug|Win32
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Debug|x86.Build.0 = Debug|Win32
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Release|x64.ActiveCfg = Release|x64
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Release|x64.Build.0 = Release|x64
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Release|x86.ActiveCfg = Release|Win32
+		{988D08AA-2568-45C1-A015-E49B3092BADD}.Release|x86.Build.0 = Release|Win32
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Debug|x64.ActiveCfg = Debug|x64
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Debug|x64.Build.0 = Debug|x64
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Debug|x86.Build.0 = Debug|Win32
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Release|x64.ActiveCfg = Release|x64
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Release|x64.Build.0 = Release|x64
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Release|x86.ActiveCfg = Release|Win32
+		{63005B16-A3C4-4F7F-9FEA-57D60644AD4B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

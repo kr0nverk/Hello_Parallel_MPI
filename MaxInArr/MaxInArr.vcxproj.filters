@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VectorMultiplication.cpp">
+    <ClCompile Include="MinInArr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

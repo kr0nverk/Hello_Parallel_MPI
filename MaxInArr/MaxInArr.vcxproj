@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{49f07f09-bfd0-4e65-b7d5-bd5ae327c3f5}</ProjectGuid>
-    <RootNamespace>FindMaxMinInMatrix</RootNamespace>
+    <ProjectGuid>{988d08aa-2568-45c1-a015-e49b3092badd}</ProjectGuid>
+    <RootNamespace>MaxInArr</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>VectorMultiplication</ProjectName>
+    <ProjectName>MinInArr</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -117,12 +117,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft SDKs\MPI\Include;C:\Program Files %28x86%29\Microsoft SDKs\MPI\Include\x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft SDKs\MPI\Include\x64;C:\Program Files %28x86%29\Microsoft SDKs\MPI\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft SDKs\MPI\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalManifestDependencies>
+      </AdditionalManifestDependencies>
       <AdditionalDependencies>msmpi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -143,7 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="VectorMultiplication.cpp" />
+    <ClCompile Include="MinInArr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

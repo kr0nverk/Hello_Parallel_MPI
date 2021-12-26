@@ -10,7 +10,7 @@
 using namespace std;
 
 /*print arr*/
-void ArrPrint(double (&Arr)[n][n]) {
+void ArrPrint(double(&Arr)[n][n]) {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
             cout << Arr[i][j] << " ";
@@ -37,12 +37,12 @@ int main(int argc, char* argv[])
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     if (rank == 0)
-    { 
+    {
         srand(time(0));
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < n; ++j) {
-                a[i][j] = i+j;
-                b[i][j] = i*j;
+                a[i][j] = i + j;
+                b[i][j] = i * j;
             }
         }
 
@@ -74,7 +74,7 @@ int main(int argc, char* argv[])
         MPI_Recv(&low_bound, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
         MPI_Recv(&upper_bound, 1, MPI_INT, 0, 2, MPI_COMM_WORLD, &status);
         MPI_Recv(&a[low_bound][0], (upper_bound - low_bound) * n, MPI_DOUBLE, 0, 3, MPI_COMM_WORLD, &status);
-        
+
         for (int i = low_bound; i < upper_bound; ++i) {
             for (int j = 0; j < n; ++j) {
                 for (int k = 0; k < n; ++k) {
@@ -96,7 +96,7 @@ int main(int argc, char* argv[])
         }
         end_time = MPI_Wtime();
         cout << end_time - start_time << endl;
-        
+
         //ArrPrint(c);
 
         start_time1 = MPI_Wtime();
