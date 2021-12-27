@@ -6,6 +6,7 @@
 #include <ctime>
 #include <iomanip>
 
+
 using namespace std;
 
 double VectorMultiplication(int n, int* A, int* B) {
